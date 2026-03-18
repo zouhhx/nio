@@ -1,0 +1,5 @@
+car = {
+"name":"NIO",
+"speed":60
+}
+print(car["name"])

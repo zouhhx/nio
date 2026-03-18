@@ -1,0 +1,5 @@
+speed=int(input("输入车速:"))
+if speed>60:
+   print("超速")
+else:
+    print("未超速")   

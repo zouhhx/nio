@@ -1,0 +1,4 @@
+with open("result.txt","w",encoding="utf-8") as f:
+    with open("log.txt","r",encoding="utf-8") as f2:
+        for line in f2:
+            f.write(line.strip()+"\n")   

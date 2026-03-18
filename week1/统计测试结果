@@ -1,0 +1,10 @@
+result=["success","fail","success","fail"]
+success=0
+fail=0
+for i in result:
+    if i=="success":
+        success+=1
+    else:
+        fail+=1
+print("成功",success)
+print("失败",fail)

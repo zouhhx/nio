@@ -1,0 +1,13 @@
+success=0
+fail=0
+with open("log2.txt","r",encoding="utf-8") as f:
+    for line in f:
+        if "success" in line:
+            success+=1
+        elif "fail" in line:
+            fail+=1
+sum=success+fail
+rate=success/sum
+print("成功次数",success)
+print("失败次数",fail)
+print("成功率",rate)

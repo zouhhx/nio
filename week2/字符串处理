@@ -1,0 +1,5 @@
+line = "time=10:21 speed=30 result=success"
+parts = line.split()
+print(parts)
+if "fail" in line:
+    print("发现失败记录") 
